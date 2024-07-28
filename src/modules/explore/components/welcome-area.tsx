@@ -27,7 +27,11 @@ export const WelcomeArea = () => {
           colors={colors}
         />
       </Stack>
-      <Stack justify="center" align="center" style={{ flex: 1 }}>
+      <Stack
+        justify="center"
+        align="center"
+        style={{ flex: 1, marginBottom: 20 }}
+      >
         <DotIndicator
           activeIndex={currentIndex}
           total={contentSliderOptions.length}

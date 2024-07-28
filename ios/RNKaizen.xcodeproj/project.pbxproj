@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNKaizenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNKaizenTests.m */; };
+		066EE523C2C905634E485984 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DF17290844294F9495F7675B /* PrivacyInfo.xcprivacy */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RNKaizen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNKaizen.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RNKaizen-RNKaizenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNKaizen-RNKaizenTests.a */; };
-		76C1A4EDB8594857A65970D0 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63A4DA9B21249D38EC0D9E2 /* Helvetica.ttf */; };
-		9ACED8A52C56E77500599955 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACED8A42C56E77500599955 /* Launch Screen.storyboard */; };
-		B059B263492241DC9AC9952D /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8DAE6F69F1A4FBFBCECB3A8 /* Helvetica-Bold.ttf */; };
-		E26C3F54607ABB10D266FD56 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 41654CA102C693D74A80012E /* PrivacyInfo.xcprivacy */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A91DF6B914014917BC760F1B /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A433264E274C7AAA347FF3 /* Helvetica.ttf */; };
+		C8B083AFC762433BAB488918 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4967139BF384ACBABAE0AB8 /* Helvetica-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +42,14 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RNKaizen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNKaizen-RNKaizenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNKaizen-RNKaizenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-RNKaizen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKaizen.debug.xcconfig"; path = "Target Support Files/Pods-RNKaizen/Pods-RNKaizen.debug.xcconfig"; sourceTree = "<group>"; };
-		41654CA102C693D74A80012E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = RNKaizen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNKaizen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKaizen.release.xcconfig"; path = "Target Support Files/Pods-RNKaizen/Pods-RNKaizen.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNKaizen-RNKaizenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKaizen-RNKaizenTests.debug.xcconfig"; path = "Target Support Files/Pods-RNKaizen-RNKaizenTests/Pods-RNKaizen-RNKaizenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNKaizen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNKaizen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNKaizen/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNKaizen-RNKaizenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKaizen-RNKaizenTests.release.xcconfig"; path = "Target Support Files/Pods-RNKaizen-RNKaizenTests/Pods-RNKaizen-RNKaizenTests.release.xcconfig"; sourceTree = "<group>"; };
-		9ACED8A42C56E77500599955 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		B63A4DA9B21249D38EC0D9E2 /* Helvetica.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Helvetica.ttf; path = ../src/assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
-		E8DAE6F69F1A4FBFBCECB3A8 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../src/assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		A6A433264E274C7AAA347FF3 /* Helvetica.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Helvetica.ttf; path = ../src/assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
+		C4967139BF384ACBABAE0AB8 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../src/assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		DF17290844294F9495F7675B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RNKaizen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -97,10 +97,10 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
-				41654CA102C693D74A80012E /* PrivacyInfo.xcprivacy */,
-				9ACED8A42C56E77500599955 /* Launch Screen.storyboard */,
+				DF17290844294F9495F7675B /* PrivacyInfo.xcprivacy */,
 			);
 			name = RNKaizen;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				FA1D7BA08D88475890C145AA /* Resources */,
+				B799AFA4EA194FF8B8445D72 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +147,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B799AFA4EA194FF8B8445D72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4967139BF384ACBABAE0AB8 /* Helvetica-Bold.ttf */,
+				A6A433264E274C7AAA347FF3 /* Helvetica.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,15 +166,6 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-RNKaizen-RNKaizenTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FA1D7BA08D88475890C145AA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B63A4DA9B21249D38EC0D9E2 /* Helvetica.ttf */,
-				E8DAE6F69F1A4FBFBCECB3A8 /* Helvetica-Bold.ttf */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,11 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				E26C3F54607ABB10D266FD56 /* PrivacyInfo.xcprivacy in Resources */,
-				76C1A4EDB8594857A65970D0 /* Helvetica.ttf in Resources */,
-				9ACED8A52C56E77500599955 /* Launch Screen.storyboard in Resources */,
-				B059B263492241DC9AC9952D /* Helvetica-Bold.ttf in Resources */,
+				066EE523C2C905634E485984 /* PrivacyInfo.xcprivacy in Resources */,
+				C8B083AFC762433BAB488918 /* Helvetica-Bold.ttf in Resources */,
+				A91DF6B914014917BC760F1B /* Helvetica.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +488,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "/Users/rose/Documents/rn-product-app";
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNKaizen/Info.plist;
@@ -515,7 +515,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "/Users/rose/Documents/rn-product-app";
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RNKaizen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

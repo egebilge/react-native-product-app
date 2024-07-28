@@ -49,8 +49,8 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Helvetica.ttf</string>
 		<string>Helvetica-Bold.ttf</string>
+		<string>Helvetica.ttf</string>
 	</array>
 </dict>
 </plist>
