@@ -28,7 +28,7 @@ npx react-native run-ios
 
 - **Tüm proje**:
   - Font-family "Helvetica" olarak ayarlandı.
-  - Moduler yapılda folder structure kuruldu.
+  - Moduler yapıda folder structure kuruldu.
 - **Header**:
   - Profile icon'a dropdown eklendi.
   - Login simule edildi.
