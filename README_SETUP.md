@@ -55,3 +55,4 @@ npx react-native run-ios
 
 Herhangi bir sorun için [contact@egebilge.dev]'den bana ulaşabilirsiniz.
 [https://main.egebilge.dev/]'den dokümantasyonlarıma ulaşabilirsiniz.
+[https://shop.egebilge.dev/]'den next.js ve shadcn ui ile oluşturulmuş e-ticaret siteme ulaşabilirsiniz.
