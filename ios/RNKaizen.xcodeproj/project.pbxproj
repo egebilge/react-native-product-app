@@ -14,7 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RNKaizen-RNKaizenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNKaizen-RNKaizenTests.a */; };
 		76C1A4EDB8594857A65970D0 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63A4DA9B21249D38EC0D9E2 /* Helvetica.ttf */; };
-		9AE3772D2C56A11400956B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE3772C2C56A11400956B56 /* LaunchScreen.storyboard */; };
+		9ACED8A52C56E77500599955 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACED8A42C56E77500599955 /* Launch Screen.storyboard */; };
 		B059B263492241DC9AC9952D /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8DAE6F69F1A4FBFBCECB3A8 /* Helvetica-Bold.ttf */; };
 		E26C3F54607ABB10D266FD56 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 41654CA102C693D74A80012E /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 		5B7EB9410499542E8C5724F5 /* Pods-RNKaizen-RNKaizenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKaizen-RNKaizenTests.debug.xcconfig"; path = "Target Support Files/Pods-RNKaizen-RNKaizenTests/Pods-RNKaizen-RNKaizenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNKaizen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNKaizen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNKaizen-RNKaizenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNKaizen-RNKaizenTests.release.xcconfig"; path = "Target Support Files/Pods-RNKaizen-RNKaizenTests/Pods-RNKaizen-RNKaizenTests.release.xcconfig"; sourceTree = "<group>"; };
-		9AE3772C2C56A11400956B56 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../../7Style/lai-mobile/ios/lai/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		9ACED8A42C56E77500599955 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B63A4DA9B21249D38EC0D9E2 /* Helvetica.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Helvetica.ttf; path = ../src/assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
 		E8DAE6F69F1A4FBFBCECB3A8 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../src/assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -97,10 +97,10 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				9AE3772C2C56A11400956B56 /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				41654CA102C693D74A80012E /* PrivacyInfo.xcprivacy */,
+				9ACED8A42C56E77500599955 /* Launch Screen.storyboard */,
 			);
 			name = RNKaizen;
 			sourceTree = "<group>";
@@ -262,8 +262,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				E26C3F54607ABB10D266FD56 /* PrivacyInfo.xcprivacy in Resources */,
-				9AE3772D2C56A11400956B56 /* LaunchScreen.storyboard in Resources */,
 				76C1A4EDB8594857A65970D0 /* Helvetica.ttf in Resources */,
+				9ACED8A52C56E77500599955 /* Launch Screen.storyboard in Resources */,
 				B059B263492241DC9AC9952D /* Helvetica-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "/Users/rose/Documents/rn-product-app";
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNKaizen/Info.plist;
@@ -514,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "/Users/rose/Documents/rn-product-app";
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RNKaizen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
